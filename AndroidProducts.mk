@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_veux-user \
-    lineage_veux-userdebug \
-    lineage_veux-eng
+    lineage_veux-ap2a-user \
+    lineage_veux-ap2a-userdebug \
+    lineage_veux-ap2a-eng
