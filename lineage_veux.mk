@@ -11,17 +11,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+<<<<<<< HEAD
 # Inherit some common TenX-OS stuff.
+=======
+# Inherit some common Lineage stuff.
+>>>>>>> ac12ba4 (fix lunch choices, add lineage includes, remove dolby)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+<<<<<<< HEAD
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2201116SG
 PRODUCT_NAME := lineage_veux
+=======
+PRODUCT_NAME := lineage_veux
+PRODUCT_DEVICE := veux
+PRODUCT_MANUFACTURER := Xiaomi
+>>>>>>> ac12ba4 (fix lunch choices, add lineage includes, remove dolby)
 PRODUCT_SYSTEM_NAME := veux_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -31,3 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := Redmi/veux_global/veux:13/TKQ1.221114.001/V14.0.6.0.TKCMIXM:user/release-keys
+<<<<<<< HEAD
+=======
+
+>>>>>>> ac12ba4 (fix lunch choices, add lineage includes, remove dolby)
