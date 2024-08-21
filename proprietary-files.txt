@@ -113,7 +113,6 @@ vendor/lib/libqtigef.so
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
@@ -1022,6 +1021,7 @@ vendor/etc/media_blair/video_system_specs.json
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+vendor/etc/media_codecs_blair.xml
 vendor/etc/media_codecs_performance_blair.xml
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_profiles_blair.xml
